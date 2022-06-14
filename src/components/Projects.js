@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Footer } from './Footer.js';
+import { ProjectCard } from './ProjectCard.js'
 import { Button } from "react-bootstrap";
-
+import PROJECTS from '../data/projects.json';
 /*
 EXAMPLE_PROJECT_DATA = [{
       "title": "My Diet Diary",
@@ -24,56 +25,62 @@ EXAMPLE_PROJECT_DATA = [{
 
 export function Projects() {
 
-    const handleViewProjectClick = () => {
-        window.open("https://my-diet-diary.web.app/");
+
+    // state variable to track filter category, set filter category to empty string
+    const [selectedFilterCategory, setSelectedFilterCategory] = useState("");
+
+
+    const allUniqueTags = ["REACT", "HTML", "CSS", "FIREBASE", "JAVASCRIPT", "PYTHON", "R", "R SHINY", "FIGMA", "SQL", "TABLEAU"]
+    const optionElems = allUniqueTags.map((category) => {
+        return <option key={category} value={category}>{category}</option>;
+    })
+
+
+    const handleSelectFilterChange = function (event) {
+        const selectedValue = event.target.value;
+        setSelectedFilterCategory(selectedValue);
     }
 
+
+    const displayedData = PROJECTS.filter((item) => {
+        let result = false;
+        if (selectedFilterCategory == "") {
+            result = true;
+        } else if (item.tags.includes(selectedFilterCategory)) {
+            result = true;
+        }
+        return result;
+    });
+
+
+
+    const cardElems = displayedData.map((item) => {
+        return <ProjectCard key={item.title}
+                            title={item.title} 
+                            description={item.description} 
+                            img_path={item.img_path}
+                            img_alt={item.img_alt}
+                            link_to_project={item.link_to_project} />
+    })
 
 
     return (
         <div>
             <section>
                 <h1 className="page-title">Projects</h1>
-                <div class="flex-container">
-                    {/* Card 1 */}
-                    <div class="flex-item-card">
-                        <img src="img/MyDietDiary.png" alt="MyDietDiary" />
-                        <div className="card-content">
-                            <h3 className="project-title">My Diet Diary</h3>
-                            <p>An interactive web app that helps user achieve a healthier lifestyle
-                                by monitoring BMI results and tracking daily food intake.</p>
-                        </div>
-                        <div className="center-flex">
-                            <Button
-                                className="view-project-button"
-                                variant="outline-secondary"
-                                onClick={handleViewProjectClick}>View Project</Button>
-                        </div>
-                    </div>
+                <div className="center-filter">
+                <label htmlFor="filter_category" className="margin-right">Filter:</label>
+               
+                <select className="form-control mr-sm-2" id="filter_category" name="filter_category"
+                    value={selectedFilterCategory}
+                    onChange={handleSelectFilterChange}>
+                    <option value="">All</option>
+                    {optionElems}
+                </select>
+                </div>
 
-                    {/* Card 2 */}
-                    <div class="flex-item-card">
-                        <img src="img/abstract2.jpg" alt="abstract art" />
-                        <p>Doloremque commodi unde eaque! Et natus dolorum corrupti ut numquam.</p>
-                    </div>
-
-                    {/* Card 3 */}
-                    <div class="flex-item-card">
-                        <img src="img/abstract3.jpg" alt="abstract art" />
-                        <p>Odio praesentium cum nemo nesciunt architecto, quam voluptate porro inventore.</p>
-                    </div>
-
-                    {/* Card 4 */}
-                    <div class="flex-item-card">
-                        <img src="img/abstract4.jpg" alt="abstract art" />
-                        <p>Dignissimos consequuntur maxime harum debitis ratione, culpa iure pariatur quaerat?</p>
-                    </div>
-
-                    {/* Card 5 */}
-                    <div class="flex-item-card">
-                        <img src="img/abstract5.jpg" alt="abstract art" />
-                        <p>Odit id earum commodi tempora voluptatum mollitia dolorum, perspiciatis nulla!</p>
-                    </div>
+                <div className="flex-container">
+                    {cardElems}
                 </div>
             </section>
             <Footer />
