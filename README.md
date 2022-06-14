@@ -2,6 +2,8 @@
 
 link to my portfolio website: https://kellyzwang.github.io/kelly-z-wang
 
+
+#### Notes:
 to deploy to GitHub pages: `npm run deploy`
 
 <!--
