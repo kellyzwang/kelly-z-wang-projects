@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/kelly-z-wang/static/css/main.8855bc9d.css",
-    "main.js": "/kelly-z-wang/static/js/main.6b04af4c.js",
+    "main.js": "/kelly-z-wang/static/js/main.aaa0883a.js",
     "static/media/background.png": "/kelly-z-wang/static/media/background.4d7b47249a0cfb219b66.png",
     "index.html": "/kelly-z-wang/index.html",
     "main.8855bc9d.css.map": "/kelly-z-wang/static/css/main.8855bc9d.css.map",
-    "main.6b04af4c.js.map": "/kelly-z-wang/static/js/main.6b04af4c.js.map"
+    "main.aaa0883a.js.map": "/kelly-z-wang/static/js/main.aaa0883a.js.map"
   },
   "entrypoints": [
     "static/css/main.8855bc9d.css",
-    "static/js/main.6b04af4c.js"
+    "static/js/main.aaa0883a.js"
   ]
 }
