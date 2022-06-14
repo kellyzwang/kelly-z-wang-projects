@@ -14,10 +14,10 @@ function App(props) {
         <div>
         <NavBar />
 
-        <Routes>
-                <Route exact path="/" render={() => <Home />} />
-                <Route exact path="/home" render={() => <Home />} />
-                <Route exact path="/projects" render={() => <Home />} />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
+                <Route path="/projects" element={<Projects />} />
                 {/*<Route exact path="*" render={() => <Home />} />*/}
             </Routes>
         </div>
