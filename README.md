@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-link to website: kellyzwang.github.io/kelly-z-wang 
+link to website: [kellyzwang.github.io/kelly-z-wang](https://kellyzwang.github.io/kelly-z-wang/)
 
 <!--
 **kellyzwang/KellyZWang** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
