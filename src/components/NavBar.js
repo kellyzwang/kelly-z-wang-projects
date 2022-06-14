@@ -8,7 +8,7 @@ export function NavBar(props) {
     return (
 
         <div>
-            <Navbar collapseOnSelect expand="lg" variant="light" className="color-nav">
+            <Navbar collapseOnSelect expand="lg" variant="light" className="color-nav fixed-top">
                 <Container>
                     <Navbar.Brand as={Link} to="/home">KELLY WANG</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -22,7 +22,7 @@ export function NavBar(props) {
                                 <NavDropdown.Item href="https://github.com/kellyzwang">GitHub</NavDropdown.Item>
                                 <NavDropdown.Item href="https://www.linkedin.com/in/kelly-zw/">LinkedIn</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">Resume</NavDropdown.Item>
+                                <NavDropdown.Item href="https://docs.google.com/document/d/1xO3s0wsN3FlSNdb9Ru-Fx9DN-a7tne77AsNn-rn0wVI/edit?usp=sharing">Resume</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
                     </Navbar.Collapse>

@@ -67,9 +67,12 @@ export function Projects() {
     return (
         <div>
             <section>
-                <h1 className="page-title">Projects</h1>
+                <div className="page-title">
+                    <h1>Projects</h1>
+                    <p>A glimpse of the projects I've been working on</p>
+                </div>
                 <div className="center-filter">
-                <label htmlFor="filter_category" className="margin-right">Filter:</label>
+                <label htmlFor="filter" className="margin-right">Filter:</label>
                
                 <select className="form-control mr-sm-2" id="filter_category" name="filter_category"
                     value={selectedFilterCategory}

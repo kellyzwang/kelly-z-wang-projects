@@ -10,7 +10,6 @@ import { Projects } from './Projects.js';
 
 function App(props) {
 
-
     return (
         <div>
         <NavBar />
@@ -20,12 +19,6 @@ function App(props) {
                 <Route path="/home" element={<Home />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="*" element={<Home />} />
-                {/*<Route path="about" element={<AboutUs />} />
-                <Route path="bmicalculator" element={<BMICalculator />} />
-                <Route path="makeplan" element={<MakeMyDietPlan foodData={combinedFoodData}/>} />
-                <Route path="viewplan" element={<ViewMyDietPlan foodData={combinedFoodData}/>} />
-                <Route path="add-food-to-database" element={<AddFoodToDatabase foodData={combinedFoodData} />} />
-    <Route path='*' element={<Home foodData={props.foodData} />} />*/}
             </Routes>
         </div>
     )

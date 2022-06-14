@@ -9,7 +9,10 @@ export function Home() {
                 <div className="flex-container-home">
                     <div className="flex-item-card-home">
                         <h1>Hello! I'm Kelly.</h1>
-                        <p>I'm an Informatics - Data Science student at the University of Washington Seattle.</p>
+                        <p>I am an Informatics - Data Science student at the University of Washington Seattle. 
+                            I have work experience in teaching R programming language and project experience 
+                            in data visualization, data analysis, web scraping, software development, product 
+                            design, as well as database design and management.</p>
                     </div>
                 </div>
             </section>

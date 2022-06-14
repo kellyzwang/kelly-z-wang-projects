@@ -4,6 +4,7 @@ body {
     background-image: url("../public/img/background.png");
     background-repeat: repeat-y;
     background-position: center;
+    padding-top: 70px;
 }
 
 /* nav bar */
@@ -20,6 +21,7 @@ footer {
 }
 
 /* home */
+
 .flex-container-home {
     display: flex;
     justify-content: space-evenly;
@@ -49,13 +51,14 @@ div.flex-container {
     flex-direction: row;
     flex-wrap: wrap;
     padding:2em;
+    justify-content: center;
   }
 .flex-item-card {
     flex: 0 0 250px;
-  background-color: white;
-  margin: 0.5rem;
-  border-radius: 10px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16), 0 1px 3px rgba(0, 0, 0, 0.23);
+    background-color: white;
+    margin: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16), 0 1px 3px rgba(0, 0, 0, 0.23);
 }
 
 .flex-item-card img {
