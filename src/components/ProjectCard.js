@@ -3,11 +3,13 @@ import { Button } from "react-bootstrap";
 
 
 export function ProjectCard(props) {
+    const homepagePath = "https://kellyzwang.github.io/kelly-z-wang/";
 
+    const image_path = homepagePath + props.img_path;
 
     return (
         <div className="flex-item-card">
-            <img src={props.img_path} alt={props.img_alt} />
+            <img src={image_path} alt={props.img_alt} />
             <div className="card-content">
                 <h3 className="project-title">{props.title}</h3>
                 <p>{props.description}</p>
