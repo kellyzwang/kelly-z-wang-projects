@@ -10,7 +10,7 @@ export function NavBar(props) {
         <div>
             <Navbar collapseOnSelect expand="lg" variant="light" className="color-nav fixed-top">
                 <Container>
-                    <Navbar.Brand as={Link} to="/home">KELLY WANG</Navbar.Brand>
+                    <Navbar.Brand as={Link} to="/home">KELLY Z WANG</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
