@@ -1,5 +1,13 @@
 [
-    {
+  {
+    "title": "One Thing at a Time",
+    "description": "A self-developed website that helps users increase working productivity. Features include recording daily to-do tasks, tracking time spent working on each task, analyzing individual’s focus time data, inputting motivative quotes and generating new encouraging quotes.",
+    "tags": ["REACT", "HTML", "CSS", "JAVASCRIPT", "FIREBASE"],
+    "img_path": "img/OneThingAtATime.png",
+    "img_alt": "One Thing at a Time",
+    "link_to_project": "https://one-thing-at-a-time-d3e12.web.app/"
+  },
+  {
       "title": "My Diet Diary",
       "description": "An interactive web app that helps user achieve a healthier lifestyle by monitoring BMI results and tracking daily food intake.",
       "tags": ["REACT", "HTML", "CSS", "JAVASCRIPT", "FIREBASE"],
