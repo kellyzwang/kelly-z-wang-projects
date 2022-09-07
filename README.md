@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-link to my portfolio website: https://kellyzwang.github.io/kelly-z-wang
+link to my portfolio website: https://kellyzwang.github.io/kelly-z-wang-projects
 
 #### Notes:
 to deploy to GitHub pages: `npm run deploy`
