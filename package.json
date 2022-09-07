@@ -2,7 +2,7 @@
   "name": "kelly-z-wang",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://kellyzwang.github.io/kelly-z-wang",
+  "homepage": "https://kellyzwang.github.io/kelly-z-wang-projects",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.4",

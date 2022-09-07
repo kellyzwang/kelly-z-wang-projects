@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 
 
 export function ProjectCard(props) {
-    const homepagePath = "https://kellyzwang.github.io/kelly-z-wang/";
+    const homepagePath = "https://kellyzwang.github.io/kelly-z-wang-projects/";
 
     const image_path = homepagePath + props.img_path;
 
