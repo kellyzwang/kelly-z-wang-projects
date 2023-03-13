@@ -1,5 +1,21 @@
 [
   {
+    "title": "Global Publications Data Project",
+    "description": "A networking tool and interactive Tableau dashboard that utilizes up-to-date publication data obtained from the openAlex API.",
+    "tags": ["FIGMA", "REACT", "HTML", "CSS", "JAVASCRIPT", "SQL", "TABLEAU", "PYTHON"],
+    "img_path": "img/Oga.png",
+    "img_alt": "Connect Parents",
+    "link_to_project": "https://github.com/Jial1/Rosetta"
+  },
+  {
+    "title": "IMA Fitness Center Database",
+    "description": "A database project for UW's primary fitness center to manage services like equipment rental, membership registration, and court reservation.",
+    "tags": ["SQL"],
+    "img_path": "img/IMA.png",
+    "img_alt": "IMA database project",
+    "link_to_project": "https://github.com/kellyzwang/IMA-Fitness-Center-Database.git"
+  },
+  {
     "title": "One Thing at a Time",
     "description": "A self-developed website that helps users increase working productivity. Features include recording daily to-do tasks, tracking time spent working on each task, analyzing individual’s focus time data, inputting motivative quotes and generating new encouraging quotes.",
     "tags": ["REACT", "HTML", "CSS", "JAVASCRIPT", "FIREBASE"],

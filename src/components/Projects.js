@@ -69,7 +69,8 @@ export function Projects() {
             <section>
                 <div className="page-title">
                     <h1>Projects</h1>
-                    <p>A glimpse of the projects I've been working on</p>
+                    <p>A glimpse of the projects I've been working on :)</p>
+                    <p>(Last updated: 2023 Mar 10)</p>
                 </div>
                 <div className="center-filter">
                 <label htmlFor="filter" className="margin-right">Filter:</label>
