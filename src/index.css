@@ -16,6 +16,7 @@ div {
     font-family: 'Montserrat', sans-serif;
 }
 
+
 /* nav bar */
 .color-nav {
     background-color: #FFE1EE;
@@ -59,24 +60,32 @@ div .nav {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-  padding: 7em;
+    padding-right: 7em;
+    padding-left: 7em;
+    padding-top: 7em;
+}
+
+.right-column {
+    flex: 1;
+    padding: 3em;
 }
 
 .left-column {
     flex: 1;
 }
 
-.right-column {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.right-column img {
+.left-column img {
     max-width: 100%;
     height: auto;
 }
 
+
+.text-box {
+    padding-right: 7em;
+    padding-left: 7em;
+    padding-top: 7em;
+    margin: 0 auto;
+}
 
 /* project page */
 * {

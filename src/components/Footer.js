@@ -6,7 +6,7 @@ export function Footer() {
     return(
         <div className='footer'>
         <footer>
-                <p>&copy; KELLY Z WANG {currentYear}</p>
+                <p>Developed by KELLY Z WANG {currentYear} &#x1F497;</p>
         </footer>
         </div>
     );
