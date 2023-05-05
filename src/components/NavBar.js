@@ -6,8 +6,9 @@ import { Link } from 'react-router-dom';
 
 export function NavBar(props) {
     return (
-
         <div>
+
+        <div className='nav'>
             <Navbar collapseOnSelect expand="lg" variant="light" className="color-nav fixed-top">
                 <Container>
                     <Navbar.Brand as={Link} to="/home">KELLY Z WANG</Navbar.Brand>
@@ -41,6 +42,7 @@ export function NavBar(props) {
                 <a href="#"><i className="fa fa-github" aria-label="github"></i></a>
             </div>
         </nav>*/}
+        </div>
         </div>
     )
 }

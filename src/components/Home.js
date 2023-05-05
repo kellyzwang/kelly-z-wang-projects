@@ -1,20 +1,28 @@
 import React from 'react';
 import { Footer } from './Footer.js';
 
-
 export function Home() {
     return (
         <div>
             <section>
-                <div className="flex-container-home">
-                    <div className="flex-item-card-home">
-                        <h1>Hello! I'm Kelly.</h1>
-                        <p>I am an Informatics - Data Science student at the University of Washington Seattle. 
-                            I have work experience in teaching R programming language and project experience 
-                            in data visualization, data analysis, web scraping, software development, product 
-                            design, as well as database design and management.</p>
-                    </div>
+                <div className='wrapper'>
+                <div className='left-column'>
+                    <h1>Hello! I'm Kelly.</h1>
+                    <p>I am a senior at the University of Washington,
+                        studying Informatics with a focus on Data Science
+                        and Human-Computer Interaction, minoring in applied
+                        math. I'm passionate about turning data into
+                        actionable insights to drive better decision-making
+                        and creating data-driven products that improve
+                        the user experience.
+                    </p>
                 </div>
+
+                <div className='right-column'>
+                    <img href="https://kellyzwang.github.io/kelly-z-wang-projects/img/kelly.jpg" alt="kelly"></img>
+                </div>
+                </div>
+
             </section>
             <Footer />
         </div>

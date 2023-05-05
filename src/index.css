@@ -1,10 +1,19 @@
-
 /* universal */
 body {
     background-image: url("../public/img/background.png");
     background-repeat: repeat-y;
     background-position: center;
     padding-top: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+p,
+div {
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* nav bar */
@@ -12,12 +21,21 @@ body {
     background-color: #FFE1EE;
 }
 
+div .nav {
+    font-weight: bold;
+}
+
 
 /* footer */
-footer {
-    padding: 20px;
-    height: 2.5rem;
-    padding-bottom: 0.2em; 
+.footer {
+    height: 3rem;
+    padding-bottom: 0.2em;
+    background-color: #FFE1EE;
+    padding: 1rem;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    margin-top: 3em;
 }
 
 /* home */
@@ -26,6 +44,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
 }
+
 .flex-item-card-home {
     width: 60%;
     background-color: white;
@@ -35,8 +54,34 @@ footer {
     padding: 4%;
 }
 
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  padding: 7em;
+}
+
+.left-column {
+    flex: 1;
+}
+
+.right-column {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right-column img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 /* project page */
-* { box-sizing: border-box; }
+* {
+    box-sizing: border-box;
+}
 
 .page-title {
     padding-left: 2em;
@@ -50,9 +95,10 @@ div.flex-container {
     height: 100%;
     flex-direction: row;
     flex-wrap: wrap;
-    padding:2em;
+    padding: 2em;
     justify-content: center;
-  }
+}
+
 .flex-item-card {
     flex: 0 0 250px;
     background-color: white;
@@ -65,7 +111,7 @@ div.flex-container {
     border-radius: 10px 10px 0 0;
     height: auto;
     width: auto;
-    max-width: 300px; 
+    max-width: 300px;
     max-height: 300px;
 }
 
@@ -95,10 +141,24 @@ div.flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right:20%;
-    padding-left:20%;
+    padding-right: 20%;
+    padding-left: 20%;
 }
 
 .margin-right {
     margin-right: 0.5em;
+}
+
+
+/* Home */
+
+@media (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .left-column,
+    .right-column {
+        flex-basis: 100%;
+    }
 }
