@@ -1,0 +1,143 @@
+[
+  {
+    "title": "Council Data Project - Special Interest Group Research",
+    "description": "A natural language processing approach for measuring the impacts of special interest groups on local policy making.",
+    "tags": [
+      "PYTHON"
+    ],
+    "img_path": "img/cdp.png",
+    "img_alt": "CDP - SIG",
+    "link_to_project": "https://docs.google.com/presentation/d/123mFT5Oib3uw8PekjMyip_f18EAOgPB8JUFBhOHVcI0/edit?usp=sharing"
+  },
+  {
+    "title": "UW Global Impact Tracker",
+    "description": "A networking tool and interactive Tableau dashboard that utilizes up-to-date publication data obtained from the openAlex API.",
+    "tags": [
+      "FIGMA",
+      "REACT",
+      "HTML",
+      "CSS",
+      "JAVASCRIPT",
+      "SQL",
+      "TABLEAU",
+      "PYTHON"
+    ],
+    "img_path": "img/Oga.png",
+    "img_alt": "UW Global Impact Tracker",
+    "link_to_project": "https://kellyzwang.github.io/oga-capstone/"
+  },
+  {
+    "title": "IMA Fitness Center Database",
+    "description": "A database project for UW's primary fitness center to manage services like equipment rental, membership registration, and court reservation.",
+    "tags": [
+      "SQL"
+    ],
+    "img_path": "img/IMA.png",
+    "img_alt": "IMA database project",
+    "link_to_project": "https://github.com/kellyzwang/IMA-Fitness-Center-Database.git"
+  },
+  {
+    "title": "One Thing at a Time",
+    "description": "A self-developed website that helps users increase working productivity. Features include recording daily to-do tasks, tracking time spent working on each task, analyzing individual’s focus time data, inputting motivative quotes and generating new encouraging quotes.",
+    "tags": [
+      "REACT",
+      "HTML",
+      "CSS",
+      "JAVASCRIPT",
+      "FIREBASE"
+    ],
+    "img_path": "img/OneThingAtATime.png",
+    "img_alt": "One Thing at a Time",
+    "link_to_project": "https://one-thing-at-a-time-d3e12.web.app/"
+  },
+  {
+    "title": "My Diet Diary",
+    "description": "An interactive web app that helps user achieve a healthier lifestyle by monitoring BMI results and tracking daily food intake.",
+    "tags": [
+      "REACT",
+      "HTML",
+      "CSS",
+      "JAVASCRIPT",
+      "FIREBASE"
+    ],
+    "img_path": "img/MyDietDiary.png",
+    "img_alt": "My Diet Diary",
+    "link_to_project": "https://my-diet-diary.web.app/"
+  },
+  {
+    "title": "BTS Song Recommendation ",
+    "description": "A website that helps ARMYs choose which BTS songs to listen to by selecting mood categories, and get BTS song recommendations.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JAVASCRIPT",
+      "PYTHON"
+    ],
+    "img_path": "img/BTSSongRecommendation.png",
+    "img_alt": "BTS Song Recommendation Project",
+    "link_to_project": "https://dorissssy.github.io/Info498A_Final_Project/"
+  },
+  {
+    "title": "Mental Health during Pandemic",
+    "description": "An interactive data visualization website that investigates different aspects of people's personal welling during the pandemic.",
+    "tags": [
+      "R",
+      "R SHINY"
+    ],
+    "img_path": "img/MentalHealthduringPandemic.png",
+    "img_alt": "Mental Health during Pandemic",
+    "link_to_project": "https://xiyahc.shinyapps.io/mental_health_during_pandemic/"
+  },
+  {
+    "title": "Coffee Makers Customer Review Analysis",
+    "description": "A web scraping + data analysis project that investigates customer preferences by scraping and analyzing customer review data from coffee maker product URLs on Amazon.",
+    "tags": [
+      "PYTHON"
+    ],
+    "img_path": "img/CoffeeMakerWebScraping.png",
+    "img_alt": "Coffee Makers Customer Review Analysis",
+    "link_to_project": "https://github.com/kellyzwang/Coffee-Makers-Customer-Review-Analysis-Web-Scraping-Project"
+  },
+  {
+    "title": "Agricultural Supply Chain Database Design",
+    "description": "A database design project for an agricultural supply chain to reduce food waste and increase profit.",
+    "tags": [
+      "SQL",
+      "TABLEAU"
+    ],
+    "img_path": "img/AgriculturalSupplyChainDatabase.png",
+    "img_alt": "Agricultural Supply Chain Database Design",
+    "link_to_project": "https://docs.google.com/presentation/d/1lY3OV5W9xHuMrk0zxi0vUFYlz8eZR1wU4IJZJRrztJA/edit?usp=sharing"
+  },
+  {
+    "title": "Potential Salary Outcomes",
+    "description": "An interactive data visualization web app that explores potential salary outcomes after graduation.",
+    "tags": [
+      "R",
+      "R SHINY"
+    ],
+    "img_path": "img/SalaryOutcomes.png",
+    "img_alt": "Potential Salary Outcomes",
+    "link_to_project": "https://qikunliu.shinyapps.io/INFO201-AD-3-Final-Project/"
+  },
+  {
+    "title": "MyCovidKit",
+    "description": "An all-in-one mobile app prototype for residents to view the availability of locations offering PCR tests and self-test kits. Our team was nominated for Top 3 Finalists for Best Design out of 60 teams.",
+    "tags": [
+      "FIGMA"
+    ],
+    "img_path": "img/MyCovidKit.png",
+    "img_alt": "My Covid Kit",
+    "link_to_project": "https://www.figma.com/proto/ywFc4t79JjUVlEL8vm9WPT/MyCovidKit?node-id=29%3A3797&scaling=scale-down&page-id=0%3A1&starting-point-node-id=29%3A3797"
+  },
+  {
+    "title": "ConnectParents",
+    "description": "A mobile app prototype that provides access to individualized COVID-19 resources.",
+    "tags": [
+      "FIGMA"
+    ],
+    "img_path": "img/ConnectParents.png",
+    "img_alt": "Connect Parents",
+    "link_to_project": "https://docs.google.com/presentation/d/1fPNuoPwA8-TcjxGqCJ1GGr6cGBTHvREkes3Lzk_N5DA/edit?usp=sharing"
+  }
+]

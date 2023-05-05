@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Footer } from './Footer.js';
 import { ProjectCard } from './ProjectCard.js'
 import { Button } from "react-bootstrap";
-import PROJECTS from '../data/projects.json';
+import PROJECTS from '../data/selectedprojects.json';
 /*
 EXAMPLE_PROJECT_DATA = [{
       "title": "My Diet Diary",
@@ -68,8 +68,8 @@ export function Projects() {
         <div>
             <section>
                 <div className="page-title">
-                    <h1>Projects</h1>
-                    <p>A glimpse of the projects I've been working on :)</p>
+                    <h1>Selected Projects</h1>
+                    <p>A glimpse of some projects I've been working on :)</p>
                     <p>(Last updated: 2023 Mar 10)</p>
                 </div>
                 <div className="center-filter">
