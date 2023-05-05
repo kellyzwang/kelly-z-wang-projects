@@ -38,7 +38,7 @@ div .nav {
     text-align: center;
     bottom: 0;
     width: 100%;
-    margin-top: 3em;
+    margin-top: 5em;
 }
 
 /* home */
@@ -87,6 +87,19 @@ div .nav {
     text-decoration: none; 
 }
 
+.bold-link:hover {
+    color: pink;
+}
+
+.link {
+    color: black;
+    text-decoration: none; 
+}
+
+.link:hover {
+    color: pink;
+}
+
 .bold {
     font-weight: bold;
     color: black;
@@ -95,10 +108,6 @@ div .nav {
 
 .light {
     font-weight:300;
-}
-
-.bold-link:hover {
-    color: pink;
 }
 
 .text-box {

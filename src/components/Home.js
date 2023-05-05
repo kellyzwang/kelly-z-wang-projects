@@ -18,6 +18,9 @@ export function Home() {
                             and creating data-driven products that improve
                             user experience.
                         </p>
+                        <p>I'm actively looking for data analytics/data engineering internships for Fall 2023!
+                        Feel free to contact me via&nbsp; 
+                        <a href="mailto:kellyzw6@gmail.com" className='link'>kellyzw6@gmail.com</a> or <a href="https://www.linkedin.com/in/kelly-zw/" className='link'>LinkedIn</a> :)</p>
                     </div>
 
                 </div>
