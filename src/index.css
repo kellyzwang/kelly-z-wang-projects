@@ -65,22 +65,23 @@ div .nav {
     padding-right: 7em;
     padding-left: 7em;
     padding-top: 7em;
-}
-
-.right-column {
+  }
+  
+  .right-column {
     flex: 1;
     padding: 3em;
-}
-
-.left-column {
+  }
+  
+  .left-column {
     flex: 1;
-}
-
-.left-column img {
+  }
+  
+  .left-column img {
     max-width: 100%;
     height: auto;
-}
-
+  }
+  
+  
 .bold-link {
     font-weight: bold;
     color: black;
@@ -115,6 +116,7 @@ div .nav {
     padding-left: 7em;
     padding-top: 7em;
     margin: 0 auto;
+    text-align: left;
 }
 
 /* project page */
@@ -191,13 +193,20 @@ div.flex-container {
 
 /* Home */
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .wrapper {
-        flex-direction: column;
+      flex-direction: column;
+      align-items: flex-start;
     }
-
+    
     .left-column,
     .right-column {
-        flex-basis: 100%;
+      flex-basis: 100%;
+      padding: 2em;
+      text-align: left;
     }
-}
+    
+    .left-column img {
+      margin-bottom: 1em;
+    }
+  }
