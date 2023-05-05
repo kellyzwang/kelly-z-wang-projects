@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/kelly-z-wang-projects/static/css/main.91753a02.css",
+    "main.css": "/kelly-z-wang-projects/static/css/main.22532c06.css",
     "main.js": "/kelly-z-wang-projects/static/js/main.d2f69097.js",
     "static/media/background.png": "/kelly-z-wang-projects/static/media/background.4d7b47249a0cfb219b66.png",
     "index.html": "/kelly-z-wang-projects/index.html",
-    "main.91753a02.css.map": "/kelly-z-wang-projects/static/css/main.91753a02.css.map",
+    "main.22532c06.css.map": "/kelly-z-wang-projects/static/css/main.22532c06.css.map",
     "main.d2f69097.js.map": "/kelly-z-wang-projects/static/js/main.d2f69097.js.map"
   },
   "entrypoints": [
-    "static/css/main.91753a02.css",
+    "static/css/main.22532c06.css",
     "static/js/main.d2f69097.js"
   ]
 }
