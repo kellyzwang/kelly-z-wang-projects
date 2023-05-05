@@ -1,10 +1,10 @@
 ### Hi there 👋
 
 link to my portfolio website: https://kellyzwang.github.io
-<!--
+
 #### Notes:
 to deploy to GitHub pages: `npm run deploy`
--->
+
 <!--
 **kellyzwang/KellyZWang** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
