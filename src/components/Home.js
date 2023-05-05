@@ -8,7 +8,7 @@ export function Home() {
                 <div className='wrapper'>
 
                     <div className='left-column'>
-                        <img src="https://kellyzwang.github.io/kelly-z-wang-projects/img/kelly.jpg" alt="kelly"
+                        <img src="https://kellyzwang.github.io/img/kelly.jpg" alt="kelly"
                             width="300" height="300"></img>
                     </div>
                     <div className='right-column'>
